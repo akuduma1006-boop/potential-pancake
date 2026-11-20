@@ -1,0 +1,8 @@
+[package]
+name = "mod-nukecraft"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# API модов из SDK закреплённой сборки; любая команда `cargo horizon-mod` скачивает его в .horizon/sdk/.
+horizon-mod-api = { path = ".horizon/sdk/api/crates/horizon-mod-api" }
